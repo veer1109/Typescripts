@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var ClassDemo_1 = require("./ClassDemo");
 var LanguageKnown;
 (function (LanguageKnown) {
     LanguageKnown[LanguageKnown["Englsish"] = 0] = "Englsish";
@@ -18,4 +19,6 @@ function GetStudentListGenerics(students) {
 }
 console.log("Callling from geenrics");
 GetStudentListGenerics(std);
+var s = new ClassDemo_1.default("patil", "veer");
+console.log(s.GetFullName());
 //# sourceMappingURL=GenericsDemo.js.map

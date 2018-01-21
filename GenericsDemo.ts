@@ -1,5 +1,5 @@
 import {IStudentInfo} from './IStudentInfo'
-
+import MyStudent from './ClassDemo'
 enum LanguageKnown{Englsish, Hinddi, Maradthi } 
 let std:Array<IStudentInfo> = [
     {Name:"abc",Age:34,Phone: 123434,Language:LanguageKnown[LanguageKnown.Englsish]},
@@ -16,3 +16,7 @@ function GetStudentListGenerics(students:Array<IStudentInfo>)
 }
 console.log("Callling from geenrics")
 GetStudentListGenerics(std);
+
+let  s = new MyStudent("patil","veer")
+
+console.log(s.GetFullName())

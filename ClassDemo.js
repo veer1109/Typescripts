@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var MyStudent = /** @class */ (function () {
     function MyStudent(lname, fname) {
         this.lname = lname;
@@ -9,6 +10,5 @@ var MyStudent = /** @class */ (function () {
     };
     return MyStudent;
 }());
-var s = new MyStudent("patil", "veer");
-console.log(s.GetFullName());
+exports.default = MyStudent;
 //# sourceMappingURL=ClassDemo.js.map

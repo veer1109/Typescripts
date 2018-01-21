@@ -1,7 +1,5 @@
-class MyStudent
+export default class MyStudent
 {
-   
-
     constructor(private lname:string,private fname:string)
     {
        
@@ -12,7 +10,5 @@ class MyStudent
     }
 }
 
-let  s = new MyStudent("patil","veer")
 
-console.log(s.GetFullName())
 
