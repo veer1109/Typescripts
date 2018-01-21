@@ -1,3 +1,5 @@
+///<reference path = './typings/index.d.ts '/>
+import * as Webdriver from "selenium-webdriver"
 //Hello World
 console.log("Hello from Veer")
 
